@@ -18,7 +18,7 @@ st.title("Wikipedia RAG Q&A システム")
 # サイドバーでWikipediaの検索キーワードを入力
 with st.sidebar:
     st.header("検索設定")
-    wiki_query = st.text_input("Wikipediaで検索するキーワード", value="僕のヒーローアカデミア")
+    wiki_query = st.text_input("Wikipediaで検索するキーワード", value="中田英寿")
     if st.button("データを更新"):
         with st.spinner("Wikipediaからデータを取得中..."):
             # Wikipediaからデータを取得
